@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<title>CodesWithChandan</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<noscript>
+		<h1>Please enable JavaScript</h1>
+		<style>
+		body{
+			background:black;
+		}
+		h1{
+			font-size: 100px;
+			text-align:center;
+			color:white;
+			font-family:sans-serif;
+		}
+		#webpage{display:none;}
+		</style>
+	</noscript>
+
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/animate.css">
+	<link href="style/text.css" rel="stylesheet">
+	<link rel="icon" type="image/png" href="images/logo.png" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="script/jquery-3.5.1.slim.min.js"></script>
+	<script src="script/popper.min.js"></script>
+	<link rel="stylesheet" href="style/bootstrap.min.css">
+	<script src="script/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<div class="mainmenu">
+		<nav class="navbar navbar-expand-lg navbar-light bg-primary shadow-lg">
+			<a href="#" class="navbar-brand" style="color:white;font-size:20px;text-shadow:2px 2px 8px #000000;">Chandan Raj</a>
+			<button class=" navbar-toggler" data-toggle="collapse" data-target="#open-menu">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse text-center" id="open-menu">
+			<ul class="nav nav-tabs navbar-nav ml-auto">
+				<li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+				<li class="nav-item"><a href="#" class="nav-link text-danger font-weight-bold animated flash infinite">Youtube</a></li>
+				<li class="nav-item"><a href="https://github.com/codeswithchandan/" target="_blank" class="nav-link">Projects</a></li>
+				<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+				<li class="nav-item" ><a href="#"  onclick="openForm()" id="cntb" class="nav-link ">Contact</a></li>
+			</ul>
+			</div>
+		</nav>
+		</div>
+		
+		<div class="container-fluid">		
+				<div class="form-popup mt-5" id="myForm">
+				<form action="mailto:codeswithchandan@gmail.com" class="form-container" method="post" enctype="text/plain">
+
+				<i class="fa fa-close" style="float:right;color:white;font-size:20px;background-color:red;padding:5px;cursor:pointer;border-radius:3px;"  onclick="closeForm()"></i>
+				<h1>Send MSG</h1>
+
+				<input type="text" placeholder="Enter Name" name="name" required>
+
+				<input type="email" placeholder="Enter Email" name="email" required>
+
+				<textarea type="text" name="Message" placeholder="Write Your Message Here..." required></textarea>
+
+				<button type="submit" class="btn">Send</button>
+				<input type="reset" value="Reset">
+				</form>
+				</div>
+
+			<div class="container pt-5">
+				<div class="row   animated slideInDown">
+					<div class="offset-sm-3 col-md-6 col-xs-12 welcome" >
+						<div id="wel_txt" class=" animated backInDown ">
+						<h5 class="animated flip">Hey,</h5>
+						<h4 class="animated headShake infinite">I'm Chandan </h4>
+						<h6 class="animated pulse infinite">welcome !</h6>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+<div class="container pt-5">
+        <h1 class="text-center text-heading skilldiv" style="font-weight: medium; font-family: 'Pacifico', cursive;" id="intro">Introduction</h1>
+        <hr style="width: 20%;" class="pb-4">
+
+        <div class="row">
+
+            <div class="col-md-3 col-xs-12 mb-3 animated slideInLeft">
+                 <div class="card box_shadow">
+                    <div class="card-icon text-center effect pt-3">
+                        <i class="fa fa-graduation-cap  pt-4" style="font-size:30px;" ></i>
+                    </div>
+                    <div class="card-body text-center pb-3">
+                        <div class="card-title animated pulse infinite"  style="font-size: 4vh;color:blue;">MCA (PG)</div>
+                        <hr style="width: 20%; margin-top: 0; padding-top: 0;">
+                        <p style="font-size: 3vh;">Magadh University,<br>Bodhgaya <br>[2018-2021] </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-xs-12 mb-3 animated slideInLeft">
+                <div class="card box_shadow">
+                    <div class="card-icon text-center effect pt-3">
+                        <i class="fa fa-institution  pt-4" style="font-size:30px;"></i>
+                    </div>
+                    <div class="card-body text-center pb-3">
+                        <div class="card-title animated pulse infinite" style="font-size: 4vh;color:blue;">Graduation (UG)</div>
+                        <hr style="width: 20%; margin-top: 0; padding-top: 0;">
+                        <p style="font-size: 3vh;">VK Singh University,<br> Ara <br>[2013-2016] </p>
+                    </div>
+                </div>
+           </div>
+
+           <div class="col-md-3 col-xs-12 mb-3 animated slideInRight">
+                <div class="card box_shadow">
+                    <div class="card-icon text-center effect pt-3">
+                        <i class="fa fa-book pt-4" style="font-size:30px;"></i>
+                    </div>
+                    <div class="card-body text-center pb-3">
+                        <div class="card-title animated pulse infinite" style="font-size: 4vh;color:blue;">Higher Secondary</div>
+                        <hr style="width: 20%; margin-top: 0; padding-top: 0;">
+                        <p style="font-size: 3vh;">BSEB, <br> Patna <br>[2011-2013] </p>
+                    </div>
+                </div>
+       		</div>
+
+       		<div class="col-md-3 col-xs-12 mb-3 animated slideInRight">
+                <div class="card box_shadow">
+                    <div class="card-icon text-center effect pt-3">
+                        <i class="fa fa-book pt-4" style="font-size:30px;"></i>
+                    </div>
+                    <div class="card-body text-center pb-3">
+                        <div class="card-title animated pulse infinite" style="font-size: 4vh;color:blue;">Secondary</div>
+                        <hr style="width: 20%; margin-top: 0; padding-top: 0;">
+                        <p style="font-size: 3vh;">BSEB, <br> Patna <br>[2010-2011] </p>
+                    </div>
+                </div>
+       		</div>
+        </div>
+</div>
+
+<div class="container pt-5 pb-5">
+        <h1 class="text-center text-heading" style="font-weight: medium; font-family: 'Pacifico', cursive;" id="intro">Latest <i class="text-danger">YouTube</i> Video</h1>
+         <hr width="30%" size="20" color="red" noshade> 
+
+				<div class="row pt-3">
+					<div class="offset-md-4 col-md-4 col-xs-12 pt-5" id="yout">
+						<center>
+						<h1 class="animated flash infinite">Comming soon.....</h1>
+						</center>
+					</div>
+				</div>
+				<div class="row pt-2">
+					<div class="offset-md-4 col-md-4 col-xs-12 ">
+							<a href="#"> <h2 class="text-right text-danger out font-italic ">More Videos...</h2></a>
+					</div>
+				</div>
+</div>
+
+<div class="container">
+        <h1 class="text-center text-heading skilldiv" style="font-weight: medium; font-family: 'Pacifico', cursive;" id="intro">Skills!</h1>
+        <hr style="width: 7%;" color="blue" >
+
+        <div class="row pt-3">
+
+            <div class="col-md-3 col-xs-12 mb-3 animated slideInLeft">
+                 <div class="card box_shadow rounded-circle">
+                    <div class="card-body text-center mt-4 pb-4  ">
+                        <div class="card-title animated pulse infinite"  style="font-size:3vh;color:blue;">Web Development & <br> Languages</div>
+                        <hr style="width: 20%; margin-top: 0; padding-top: 0;">
+                        <p style="font-size: 3vh;">HTML,CSS,JS <br>Bootstrap<br>PHP, C, C++... </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-xs-12 mb-3 animated slideInLeft">
+                <div class="card box_shadow rounded-circle">
+                    <div class="card-body text-center mt-4 pb-3">
+                        <div class="card-title animated pulse infinite" style="font-size: 4vh;color:blue;">MS Office</div>
+                        <hr style="width: 20%; margin-top: 0; padding-top: 0;">
+                        <p style="font-size: 3vh;">MS Word,<br> MS Excel,<br> MS Access, <br>MS Powerpoint... </p>
+                    </div>
+                </div>
+           </div>
+
+           <div class="col-md-3 col-xs-12 mb-3 animated slideInRight">
+                <div class="card box_shadow rounded-circle">
+                    <div class="card-body text-center mt-4 pb-3">
+                        <div class="card-title animated pulse infinite" style="font-size: 4vh;color:blue;">Technical Tools</div>
+                        <hr style="width: 20%; margin-top: 0; padding-top: 0;">
+                        <p style="font-size:3vh;">Adobe Photoshop, <br>Visual Studio, <br>Filmora <br>Camtesia...  </p>
+                    </div>
+                </div>
+       		</div>
+
+       		<div class="col-md-3 col-xs-12 mb-3 animated slideInRight">
+                <div class="card box_shadow rounded-circle">
+                    <div class="card-body text-center mt-4 pb-5">
+                        <div class="card-title animated pulse infinite" style="font-size: 3vh;color:blue;">Other Technical Degree</div>
+                        <hr style="width: 20%; margin-top: 0; padding-top: 0;">
+                        <p style="font-size: 3vh;">ITI, <br> NCVT <br>[2016-2018] </p>
+                    </div>
+                </div>
+       		</div>
+        </div>
+</div>
+
+<div class="container mt-5">
+        <h1 class="text-center text-heading skilldiv" style="font-weight: medium; font-family: 'Pacifico', cursive;" id="intro">Projects!</h1>
+        <hr style="width: 7%;" color="blue" >
+
+        <div class="row pt-3 mb-5">
+        	<div class="col offset-md-4 col-md-4 text-center">
+        		<button class="btn btn-secondary"><a href="https://github.com/codeswithchandan/" target="_blank" class="nav-link" style="color:white;">Click here for Projects</a></button>
+        	</div>
+		</div>
+</div>
+		
+		<div class="footer card-title bg-primary animated slideInUp">
+			<p>This Site is Developed By : Chandan Raj  </p>
+		</div>
+
+	</div>
+<script src="script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,206 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+/* ScrollBar */
+
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: white;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-button{
+    background-color: red;
+    height: 20px;
+}
+
+body::-webkit-scrollbar-button:hover{
+    background-color: blue;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+    background-color:blue;
+    border-radius: 15px;
+}
+
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 1;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+/* .form-container input[type=text], .form-container input[type=email] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+ */
+.form-container input[type=text], .form-container input[type=email]
+{border: none;
+  outline: none;
+  width: 100%;
+  margin: 5px 0 22px 0;
+  background: none;
+  font-size: 15px;
+  color: black;
+  padding:20px 10px 20px 10px;
+  box-shadow: inset 8px 8px 8px #cbced1,
+        inset -8px -8px 8px #ffffff ;
+  border-radius: 15px;
+  }
+
+textarea{
+  width: 100%;
+  padding: 15px;
+  margin: 10px 5px 22px 5px;
+  border: none;
+  background: #f1f1f1;
+  box-shadow: inset 8px 8px 8px #cbced1,
+        inset -8px -8px 8px #ffffff ;
+  border-radius: 15px;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=email]:focus, textarea:focus,.form-container input[type=reset]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding:10px ;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+
+.form-container input[type=reset]{
+  background-color:#aaa;
+  color: #fff;
+  padding:10px ;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover .cancel{
+  opacity: 1;
+}
+
+.welcome{
+  height:260px;
+  border:12px solid black;
+ /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ,inset 0 0 10px #000000; */
+  text-align: center;
+  border-radius: 25px;
+  font-family:Times, "Times New Roman", serif;
+  box-shadow: 13px 13px 20px #cbced1,
+        -13px -13px 20px #ffffff;
+}
+
+
+#wel_txt{
+  margin-top: 30px;
+}
+
+#wel_txt h5{
+  font-weight: bold;
+  font-size: 35px;
+}
+
+#wel_txt h4{
+  color: blue;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#wel_txt h6{
+  font-size: 25px;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),0 6px 20px 0 rgba(32, 202, 133,0.2);
+}
+
+
+#yout{
+ height:260px;
+ border:12px solid red;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19),inset 0 0 10px #000000;
+border-radius: 25px;
+}
+
+.digree_ico{
+  font-size: 50px;
+}
+
+
+/* Footer */
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   padding:5px;
+}
+
+.navbar-light{
+  color: red;
+  font-size: 20px;
+}
+
+
+
+.skilldiv{
+  animation:post 10s infinite;
+}
+
+@keyframes post{
+  10%{color:red;}
+  20%{color:green;}
+  30%{color:blue;}
+  40%{color:pink;}
+  50%{color:black;}
+  20%{color:green;}
+  30%{color:blue;}
+  40%{color:pink;}
+  50%{color:red;}
+  100%{color:black;}
+}
